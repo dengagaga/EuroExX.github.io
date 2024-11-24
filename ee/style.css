@@ -409,6 +409,8 @@ body {
     position: absolute;
     background-color: #fff;
     width: 100vw;
+    opacity: 1;
+    visibility: hidden;
     left: -1000px;
     display: flex;
     flex-direction: column;
@@ -423,6 +425,8 @@ body {
 }
 .navListMobil--active {
     left: 0px;
+    opacity: 1;
+    visibility: visible;
 }
 @media (max-width: 1024px) {
     .section_two-item-title {
